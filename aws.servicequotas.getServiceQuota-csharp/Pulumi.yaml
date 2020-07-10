@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: dotnet
+description: ${DESCRIPTION}
+template:
+  description: An AWS getServiceQuota C# Pulumi program
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

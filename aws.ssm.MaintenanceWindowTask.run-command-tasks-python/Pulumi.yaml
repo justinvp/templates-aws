@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: python
+description: ${DESCRIPTION}
+template:
+  description: Run Command Tasks
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

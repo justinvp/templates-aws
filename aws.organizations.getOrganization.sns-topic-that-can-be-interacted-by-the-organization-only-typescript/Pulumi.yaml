@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: nodejs
+description: ${DESCRIPTION}
+template:
+  description: SNS topic that can be interacted by the organization only
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

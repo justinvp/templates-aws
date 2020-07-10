@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: python
+description: ${DESCRIPTION}
+template:
+  description: Aurora MySQL 2.x (MySQL 5.7)
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

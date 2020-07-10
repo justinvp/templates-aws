@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: nodejs
+description: ${DESCRIPTION}
+template:
+  description: Alternative Domains DNS Validation with Route 53
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

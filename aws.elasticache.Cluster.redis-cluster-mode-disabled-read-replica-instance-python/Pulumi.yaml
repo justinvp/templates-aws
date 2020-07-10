@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: python
+description: ${DESCRIPTION}
+template:
+  description: Redis Cluster Mode Disabled Read Replica Instance
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

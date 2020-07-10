@@ -1,0 +1,9 @@
+name: ${PROJECT}
+runtime: nodejs
+description: ${DESCRIPTION}
+template:
+  description: Add multiple notification configurations to SQS Queue
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1
